@@ -79,7 +79,7 @@ void menu() {
 
     char* newString = replace(src, pat, rep);
 
-    printf("%s", newString);
+    printf("\nThe string after replacement is: \n%s", newString);
 
     return;
 }
