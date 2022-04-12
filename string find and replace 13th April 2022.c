@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char src[1000], pat[500], rep[500];
-
 int compare(char str1[], char str2[])
 {
     int i;
@@ -38,6 +36,7 @@ int split(char str[])
     return j + 1;
 }
 
+char src[1000], pat[500], rep[500];
 
 char* replace(char src[], char pat[], char rep[])
 {
